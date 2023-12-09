@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(71, 103, 248, 0.884);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 80%;
+    height: 90%;
+    border: 5px solid rgba(248, 243, 243, 0.884);
+}
+.top{
+    height: 90px;
+    width: 100%;
+    background-color: rgba(185, 194, 238, 0.82);
+    border-bottom: 5px solid rgba(248, 243, 243, 0.884);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom{
+    height: calc(100% - 90px);
+    width: 100%;
+    background-color: rgba(185, 194, 238, 0.82);
+    padding: 5px 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+   /* justify-content: center; */
+}
+
+.box{
+    height: 2vw;
+    width: 2vw;
+    background-color: rgb(93, 115, 244);
+    margin-right: 40px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 5px 5px 7px rgb(75, 88, 171);
+}
+.box h4{
+    font-size: 1.4vw;
+    font-weight: 600;
+    color:#fff;
+
+}
+.elem{
+    display: flex;
+    align-items: center;
+    margin-right: 3vw;
+}
+.elem h5{
+    font-size: 1.5vw;
+    font-weight: 900;
+    margin-right: 1vw;
+    color: rgba(39, 65, 170, 0.848);
+    text-shadow: 0 2px 5px #fff;
+}
+
+.bottom .circle{
+    height:55px;
+    width: 55px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    margin-left:10px;
+    margin-right: 10px;
+    box-shadow: 3px 3px 5px rgb(75, 88, 171);
+    font-size: 1.1vw;
+    font-weight: 800;
+    cursor: pointer;
+    color: #fff;
+    background-color: rgba(77, 99, 238, 0.566);
+
+}
+.circle:hover{
+    background-color: rgba(223, 226, 239, 0.922);
+    color: black;
+}
+
+.bottom .end{
+    font-size: 6vw;
+    margin-top: 100px;
+    margin-bottom: 10px;
+   color: rgb(71, 103, 248);
+   text-shadow: 5px 5px 7px rgb(75, 88, 171);
+  -webkit-text-stroke: 0.9px rgb(244, 238, 238);
+}
+.bottom .endtext{
+    font-size: 4.5vw;
+    color: rgb(71, 103, 248);
+    -webkit-text-stroke: 0.9px rgb(244, 238, 238);
+   text-shadow: 5px 5px 7px rgb(75, 88, 171);
+
+}
+
+
